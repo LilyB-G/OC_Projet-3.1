@@ -1,0 +1,22 @@
+{
+  "name": "projet_3",
+  "version": "1.0.0",
+  "description": "Mon projet 3 Openclassrooms OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./sass/main.scss:.css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilyB-G/OC_Projet-3.git"
+  },
+  "author": "Lily_B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilyB-G/OC_Projet-3/issues"
+  },
+  "homepage": "https://github.com/LilyB-G/OC_Projet-3#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
