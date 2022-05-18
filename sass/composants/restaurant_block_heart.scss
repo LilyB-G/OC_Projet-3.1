@@ -1,0 +1,18 @@
+.restaurant_block_heart{
+    color: #000;
+    font-size: 20px;
+    margin-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-heart:hover{
+    animation: fill 0.3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(to left, #9356DC, #B35CDC, #CF64DC, #E86EDB, #FF79DA);
+    background: -webkit-linear-gradient(to left, #9356DC, #B35CDC, #CF64DC, #E86EDB, #FF79DA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

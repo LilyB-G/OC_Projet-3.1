@@ -1,0 +1,8 @@
+.fa-mobile-screen-button, .fa-list-ul, .fa-store{
+    color: #808080;
+    display: flex;
+
+& .fa-mobile-screen-button, .fa-list-ul, .fa-store, .operation_steps li{
+    justify-content: space-around;
+    }
+}

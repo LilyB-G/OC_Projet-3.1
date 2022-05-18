@@ -1,0 +1,37 @@
+footer{
+    display: block;
+    background-color: #303030;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    padding: 25px;
+    color: #FFF;
+}
+
+h3{
+    font-family: "Shrikhand";
+    margin: 0% 70% 0% 10%;
+}
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media all and (min-width: 1100px){
+    h3{
+        margin: 0% 85% 0% 0%;
+    }
+
+    footer ul li{
+        display: inline;
+        margin: 3%;
+    }
+}

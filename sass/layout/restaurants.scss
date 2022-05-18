@@ -1,0 +1,72 @@
+.homepage_restaurants{
+    background: #F2F2F2;
+    padding: 8% 0% 3% 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant_title{
+    font-family: "Roboto";
+    padding-bottom: 3%;
+}
+
+.restaurant_card{
+    width: 330px;
+    height: 180px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #AAA;
+    margin-top: 8%;
+    padding-top: 5%;
+    position: relative;
+    background: #FFF;
+
+& .restaurant_card:hover{
+    transform: scale(1.03);
+	transition: ease 0.4s;
+    box-shadow: 4px 4px 6px #B35CDC;
+    }
+}
+
+.restaurant_block-info{
+    margin-top:-10%;
+    margin-bottom: -10%;
+    padding-right: 55%;
+    color: black;
+    justify-content: flex-start;
+}
+
+.restaurant_block-name{
+    margin-top: 1%;
+    font-size: 14px;
+}
+
+.restaurant_block-city{
+    margin-top: -10%;
+    font-size: 12px;
+}
+
+.restaurant_block-name, .restaurant_block-city{
+    display: flex;
+    align-content: baseline;
+    margin-left: 8%;
+}
+
+@media all and (min-width: 1100px){
+    .homepage_restaurants{
+     padding-top: 2%;
+    }
+
+    .restaurant_cards{
+       display: flex;
+       /*justify-content: center;*/
+       flex-wrap: wrap;
+       justify-content: space-between;
+       margin-left: -3%;
+       margin-right: 1.5%;
+    }
+
+    .restaurant_title{
+        font-size: 20px;
+        margin-left: -11%;
+    }
+}
