@@ -2,14 +2,90 @@ $purple: #9356DC;
 $orchid: #BA55D3;
 
 .operation {
+    width: 90%;
+    margin: auto;
+}
+
+.operation_steps{
+    display: flex;
+}    
+
+.operation_steps :hover{
+    background: #F2EAFB;
+}
+
+@media screen and (max-width: 1100px){
+    .operation_steps{
+        flex-wrap: wrap;
+    }
+}
+
+.operation_steps-text{
+    position: relative;
+    width: 100%;
+    margin: 0.5em;
+    border-radius: 1.3em;
+    box-shadow: 1px 7px 9px #0000002e;
+    padding: 1.5em;
+    background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 1100px){
+    .operation_steps-text{
+        max-width: 80%;
+        margin-right: 40px;
+    }
+}
+
+/*.operation_steps-text--purple{
+    background-color: #9557e02f
+}*/
+
+.operation_steps--number{
+    border-radius: 100%;
+    background-color: #9356DC;
+    color: white;
+    height: 1em;
+    width: 1em;
+    min-height: 1.3em;
+    min-width: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+    position: absolute;
+    left: -8px;
+}
+
+.operation_steps-desc{
+    align-items: center;
+    font-weight: 600;
+}
+
+.operation_steps-list-icone{
+    color: gray;
+    padding-right: 10px;
+}
+
+.operation_steps-list-icone:hover{
+    color: #9356DC;
+}
+
+/*.operation_steps-text--purple{
+    color: #9356DC;
+}*/
+
+/*.operation {
     margin-bottom: 50px;
     padding-right: 10%;
+    width: 90%;
+    margin: auto;
 
     & .operation h2 {
         padding: 20px;
     }
 
-    & .operation_steps {
+& .operation_steps {
         list-style-type: none;
     }
 
@@ -25,6 +101,7 @@ $orchid: #BA55D3;
         box-shadow: 1px 2px 8px 2px #C4C4C4;
         background-color: #F5F5F5;
         width: 270px;
+        width: 90%;
         height: 10px;
     }
 
@@ -43,11 +120,11 @@ $orchid: #BA55D3;
 
 
     & .operation_steps li:hover .fa-solid {
-        color: $orchid;
+        color: $purple;
     }
 
     & .operation_step--number {
-        background-color: $orchid;
+        background-color: $purple;
         color: #FFF;
         border-radius: 50%;
         padding: 5px 9px;
@@ -59,7 +136,13 @@ $orchid: #BA55D3;
 #operation_title {
     font-size: 20px;
     display: flex;
-    margin-left: 25%;
+    justify-content: flex-start;
+    margin-left: 8%;
+}
+
+.operation_step--number{
+    display: flex;
+    justify-content: flex-start;
 }
 
 @media all and (min-width: 1100px) {
@@ -74,10 +157,16 @@ $orchid: #BA55D3;
         flex-direction: row;
         margin-right: 22%;
         margin-left: -17%;
-        margin-top: 8%;
+        margin-top: 55px;
+        width: 90%;
     }
 
     .operation_steps li {
         margin-left: 8%;
     }
-}
+
+    .operation_step--number{
+       display: flex;
+        justify-content: flex-start;
+    }
+}*/

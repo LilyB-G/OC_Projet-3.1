@@ -1,9 +1,16 @@
 .about{
     background-color: #F5F5F5;
-    margin-top: -3%;
+    /*margin-top: -3%;*/
     padding-top: 3%;
     padding-bottom: 5%;
-& .about h2{
+& .about .catch_phrase{
     font-weight: bold;
+    display: flex;
+    justify-content: center;
     }
+}
+
+.catch_phrase, .catch_line{
+    display: flex;
+    justify-content: center;
 }
