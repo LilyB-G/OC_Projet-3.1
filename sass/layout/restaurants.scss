@@ -12,12 +12,8 @@
     margin-left: 1%
 }
 
-.restaurant_cards{
-    /*width: 90%;*/
-}
 
 .restaurant_card{
-    /*width: 330px;*/
     width: 90%;
     height: 180px;
     border-radius: 25px;
@@ -36,32 +32,25 @@
 
 .restaurant_card-img{
     margin-top: 0;
-}
+}    
 
 .restaurant_block-info{
     margin-top:-10%;
-   /* margin-bottom: -10%;*/
     padding-right: 55%;
     color: black;
-    /*justify-content: flex-start;*/
 }
 
 .restaurant_block-name{
-    /*margin-top: 1%;*/
     font-size: 14px;
     font-weight: bold;
 }
 
 .restaurant_block-city{
-    /*margin-top: -10%;*/
     font-size: 12px;
-    /*display: flex;
-    align-content: baseline;*/
 }
 
 .restaurant_block-name, .restaurant_block-city{
     display: flex;
-    /*align-content: baseline;*/
     margin-left: 8%;
 }
 
