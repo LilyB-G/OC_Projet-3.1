@@ -166,6 +166,7 @@ body {
   cursor: pointer;
   transition: padding-right 450ms ease-in-out;
   animation: slideup 5s;
+  overflow: hidden;
 }
 .meals:hover {
   padding-right: 105px;
@@ -231,15 +232,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 10px;
-  height: 5px;
+  width: 1px;
+  height: 3px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
   padding: 30px;
-  right: -50px;
+  right: -61px;
   top: 0;
-  opacity: 0;
+  opacity: 1;
   transition: transform 330ms ease-in-out;
 }
 .check .fa-circle-check {
@@ -292,22 +293,103 @@ p {
   font-size: 25px;
 }
 
+/*ESSAI*/
+/*.menu-card{
+    box-shadow: 0 0 10px #0000002e;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    width: 50%;
+}
+
+.menu-card-part{
+    flex: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.meals{
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.line{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bolder;
+}
+
+.check-confirmation{
+    width: 4em;
+    margin: -1em -5em -1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99E2D0;
+    transform: translateX(10px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.check{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+
+.menu-card:hover .check-confirmation{
+    margin-right: -0.5em;
+    animation: rest 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.menu-card:hover .check{
+    transform:rotate(0);
+}
+
+.fa-circle-check{
+    color: #99E2D0;
+}*/
 .btn_order button {
   background-image: linear-gradient(to left, #9356DC, #B35CDC, #CF64DC, #E86EDB, #FF79DA);
   border: 1px solid transparent;
   border-radius: 30px;
-  padding: 20px;
+  padding: 10px;
   color: #FFF;
   font-weight: bold;
   box-shadow: 4px 4px 6px #AAA;
   cursor: pointer;
-  margin: 5% 0% 5% 25%;
-  width: 50%;
+  /*margin: 5% 0% 5% 25%;*/
+  width: 30%;
+}
+
+.btn_order {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px;
 }
 
 @media all and (min-width: 1100px) {
   .btn_order {
-    padding: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px;
   }
   .btn_order button {
     width: 20%;
